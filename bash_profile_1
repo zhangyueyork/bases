@@ -1,0 +1,28 @@
+#public env
+#20190128
+alias shuttlessh='sshuttle --dns -r zhangyue@hlogin03.ihep.ac.cn 0/0 -v'
+alias howbig='du -h --max-depth=1'
+alias dg='sudo apt-get update && sudo apt-get upgrade'
+ssscptolocal()
+{
+        scp -r zhangyue@hlogin$1.ihep.ac.cn:$2 $3
+}
+ssscptoserver()
+{
+        scp -r $1 zhangyue@hlogin$2.ihep.ac.cn:$3
+}
+zhangyueihep()
+{
+        ssh -X zhangyue@hlogin$@.ihep.ac.cn
+}
+######################## 重定义rm命令
+export trash_path=~/.local/share/Trash/files/
+if [ ! -d $trash_path ]; then
+        mkdir -p $trash_path
+fi
+alias rm=newrm
+alias lstrash='ls $trash_path'
+newrm()
+{
+        mv -b $@ $trash_path
+}
