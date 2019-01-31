@@ -132,17 +132,7 @@ alias megti='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/megti.py'
 alias legti='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/legti.py'
 ######## INDIVADUAL
 alias swift0243='cd /home/shlocal/zhangyueDATA/SwiftJ0243/'
-########################
-PATH=$PATH:/home/shlocal/zhangyueDATA/CENTER/mybin
-export PYTHONPATH=$PYTHONPATH:'/home/shlocal/zhangyueDATA/CENTER/my_python_module_new'
 ########
 source /home/shlocal/.bash_profile_1
-######## #python
-#PATH=$PATH:'/home/shlocal/zhangyueDATA/my_python_module/script/'
-#PATH=$PATH:'/home/shlocal/zhangyueDATA/my_python_module_new/'
-######## SERVER
-#export PYTHONPATH=$PYTHONPATH:'/home/shlocal/SERVER/my_python_module_server'
-#export PYTHONPATH=$PYTHONPATH:'/home/shlocal/SERVER/my_python_module_server/script'
-##export PYTHONPATH=$PYTHONPATH:'/
-#PATH=$PATH:'/home/shlocal/SERVER/my_python_module_server'
-#PATH=$PATH:'/home/shlocal/SERVER/my_python_module_server/script'
+######################## For DATA moving
+export PYTHONPATH=$PYTHONPATH:'/home/shlocal/zhangyueDATA/CENTER/my_python_module_new'
