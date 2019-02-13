@@ -1,5 +1,5 @@
 #public env
-#20190128
+#20190213
 alias shuttlessh='sshuttle --dns -r zhangyue@hlogin03.ihep.ac.cn 0/0 -v'
 alias howbig='du -h --max-depth=1'
 alias dg='sudo apt-get update -y && sudo apt-get upgrade -y'
