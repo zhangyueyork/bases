@@ -5,3 +5,4 @@ export LSCOLORS=ExGxFxdaCxDaDahbadeche #color of each file
 export PS1='\[\033[01;36m\]\u@\h\[\033[01;32m\] \W\[\033[01;31m\]\$\$\$\[\033[00m\] ' #color content
 ########
 alias python='python3.7'
+alias la='ls -a'
