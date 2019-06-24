@@ -7,7 +7,14 @@
 
 2. 配置如下: 
    
-   1. macos系统: `source /Users/xxxx/base/bash_macOS`
+   1. macos系统: 
+   
+      `echo 'source /Users/xxxx/base/bash_macOS' >> .bash_profile`
+      
+      `echo 'source ./base/vimrc' >> .vimrc`
+      
+      `ln -s ./base/murphy2.vim ./vim/colors/murphy2.vim`
+      
    2. ubuntu系统: `123`
    3. 服务器: `123`
 
