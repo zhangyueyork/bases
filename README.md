@@ -1,5 +1,5 @@
 # base
-# the environment of shell and vim 
+# environment of shell and vim 
 
 0. 内容包含不同系统公用的环境文件及不同系统特有的环境文件
 
