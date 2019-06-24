@@ -1,3 +1,4 @@
+" 宽度设为84个以上,一般为88
 set nocompatible    "关闭vi兼容
 set background=dark    "背景颜色
 colorscheme murphy2
@@ -18,6 +19,7 @@ set hlsearch    "高亮搜索
 syntax on
 set incsearch    "随输入查找
 set number    "打开行号
+set ruler   "右下角显示行列信息
 set autoindent    "与前一行相同缩进
 set showcmd    "显示输入的命令
 set cursorline    "突出当前行
@@ -28,13 +30,18 @@ set tabstop=4    "设置tab长度
 set expandtab    "将tab长度设为空格
 set scrolloff=5 "设置光标移动到上下两端时，保持3行距离
 set softtabstop=4   "设置缩进长度
+" 显示行尾多余空格
 au BufNewFile,BufRead *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+set listchars=tab:»■,trail:■
+set list
+" 显示行尾多余空格
 "set mouse=a
 "set mousehide
 "set wildmenu   "补全已出现关键字 ctrl+n
 "filetype plugin on 
-"set visualbell
+set visualbell "出错时视觉提示
 "set showmatch
+"set relativenumber "显示相对行号
 
 "xxxxxxxxxxxxx 按<F2>自动生成代码设置
 if !exists("*SetTitlea")
