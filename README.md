@@ -15,5 +15,5 @@
 
 2. 提交更改：`git add .`
             `git commit -m 'commit'`
-            `git pull `
+            `git push`
 3. 更新本地文件：`git pull`
