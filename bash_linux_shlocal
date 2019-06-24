@@ -117,6 +117,10 @@ if ! shopt -oq posix; then
 fi
 
 ###############################################################################
+export trash_path=~/.local/share/Trash/files/
+source /home/shlocal/.bash_profile_1
+###############################################################################
+######## INDIVADUAL
 ######## HEASOFT
 alias heainit='export HEADAS=/home/shlocal/soft/heasoft-6.24/x86_64-pc-linux-gnu-libc2.23 && . $HEADAS/headas-init.sh'
 alias hxmtinit='\
@@ -130,9 +134,9 @@ alias mebkgmap='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/mebkgma
 alias lebkgmap='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/lebkgmap.py'
 alias megti='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/megti.py'
 alias legti='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/legti.py'
-######## INDIVADUAL
+###############################################################################
 alias swift0243='cd /home/shlocal/zhangyueDATA/SwiftJ0243/'
-########
-source /home/shlocal/.bash_profile_1
+alias howbig='du -h --max-depth=1'
+alias dg='sudo apt-get update -y && sudo apt-get upgrade -y'
 ######################## For DATA moving
 export PYTHONPATH=$PYTHONPATH:'/home/shlocal/zhangyueDATA/CENTER/my_python_module_new'
