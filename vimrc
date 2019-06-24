@@ -15,6 +15,7 @@ colorscheme murphy2
 "colorscheme wombat256mod
 
 set hlsearch    "高亮搜索
+syntax on
 set incsearch    "随输入查找
 set number    "打开行号
 set autoindent    "与前一行相同缩进
