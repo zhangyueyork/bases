@@ -49,7 +49,7 @@ map <F2> :call SetTitlea()<CR>
 func SetTitlea()
 
 let l=0
-let l=l+1 | call setline(l,'#!/usr/local/bin/python3.7')
+let l=l+1 | call setline(l,'#!/usr/bin/env python3.7')
 "let l=l+1 | call setline(l,'#!coding=utf-8')
 let l=l+1 | call setline(l,'#')
 "let l=l+1 | call setline(l,'from __future__ import division')
