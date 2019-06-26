@@ -10,3 +10,6 @@ source ~/base/bash_profile_pub
 ######################## alias
 alias python='python3.7'
 alias la='ls -a'
+######################## for DATA moving
+export PYTHONPATH=$PYTHONPATH:'/Users/shzy/PublicScript/'
+#alias fv='open -a fv'
