@@ -13,7 +13,7 @@
 
    2.vim配置文件，vim颜色配置文件
 
-3. 配置如下: 
+3. 需要手动配置的如下: 
 
    1.macos系统: 
 
@@ -21,7 +21,7 @@
 
       `echo 'source ./base/vimrc' >> .vimrc`
 
-      `ln -s ./base/murphy2.vim ./vim/colors/murphy2.vim`
+      (`ln -s ./base/murphy2.vim ./vim/colors/murphy2.vim`) 目前通过删除旧文件将此句固化在bash_macOS中
 
    2.ubuntu系统: `123`
 
