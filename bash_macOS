@@ -14,4 +14,6 @@ alias la='ls -a'
 export PYTHONPATH=$PYTHONPATH:'/Users/shzy/PublicScript/'
 /bin/rm ~/.vim/colors/murphy2.vim
 ln -s ~/git_base/murphy2.vim ~/.vim/colors/murphy2.vim
+/bin/rm ~/.pip/pip.conf
+ln -s ~/git_base/pip.conf ~/.pip/pip.conf
 #alias fv='open -a fv'
