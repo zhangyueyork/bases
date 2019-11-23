@@ -68,4 +68,4 @@ map <F4> <Esc>o<home><Esc>Di   #^^^^^^^END<Esc>
 map <F5> <Esc>o########################<Esc><home>
 map <F6> <Esc>o<home><Esc>Di###############################################################################<Esc><home>
 map <F7> <Esc>oraw_input('xxx')<Esc>
-map <F8> <Esc><End>a<Tab># for check<Esc>j
+map <F8> <Esc><End>a<Tab># zhangyue<Esc>j
