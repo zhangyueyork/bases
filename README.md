@@ -23,7 +23,9 @@
 
       (`ln -s ./base/murphy2.vim ./vim/colors/murphy2.vim`) 目前通过删除旧文件将此句固化在bash_macOS中
 
-   2.ubuntu系统: `123`
+   2.ubuntu系统: 
+      `先需要建立~/.vim/color 路径`
+      `pip.conf 的声明独立在系统自带的bash中比较好`
 
    3.服务器: `123`
 
