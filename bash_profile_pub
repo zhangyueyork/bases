@@ -23,7 +23,7 @@
 ###############################################################################
 #alias shuttlessh='sshuttle --dns -r zhangyue@hlogin03.ihep.ac.cn 0/0 -v'
 #########
-alias ll = 'ls -lh'
+alias ll='ls -lh'
 ######################## 重定义rm命令
 if [ ! -d $trash_path ]; then
         mkdir -p $trash_path
