@@ -25,7 +25,7 @@
 
    2.ubuntu系统: 
    
-      `先需要建立~/.vim/color 路径`
+      `先需要建立~/.vim/colors 路径`
       
       `pip.conf 的声明独立在系统自带的bash中比较好`
 
