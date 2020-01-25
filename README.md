@@ -19,7 +19,7 @@
 
       `echo 'source /Users/xxxx/base/bash_macOS' >> .bash_profile`
 
-      `echo 'source ./base/vimrc' >> .vimrc`
+      `echo 'source /base/vimrc' >> .vimrc`
 
       (`ln -s ./base/murphy2.vim ./vim/colors/murphy2.vim`) 目前通过删除旧文件将此句固化在bash_macOS中
 
