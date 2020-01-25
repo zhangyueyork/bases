@@ -118,25 +118,36 @@ fi
 
 ###############################################################################
 export trash_path=~/.local/share/Trash/files/
-source /home/shlocal/.bash_profile_1
+#source /home/shlocal/.bash_profile_1
+source ~/git_base/bash_profile_pub
+#######
+alias python='python3.7'
+#######
+/bin/rm ~/.vim/colors/murphy2.vim
+ln -s ~/git_base/murphy2.vim ~/.vim/colors/murphy2.vim
+#######
+#/bin/rm ~/.pip/pip.conf
+#ln -s ~/git_base/pip.conf ~/.pip/pip.conf
+#######
+export PYTHONPATH=$PYTHONPATH:'/root/git_base/pythonselflib'
 ###############################################################################
 ######## INDIVADUAL
 ######## HEASOFT
-alias heainit='export HEADAS=/home/shlocal/soft/heasoft-6.24/x86_64-pc-linux-gnu-libc2.23 && . $HEADAS/headas-init.sh'
-alias hxmtinit='\
-        export CALDB=/home/shlocal/soft/hxmtsoft-v2-181215/CALDB && \
-        export CALDBCONFIG=/home/shlocal/soft/hxmtsoft-v2-181215/CALDB/caldb.config && \
-        export HEADAS=/home/shlocal/soft/hxmtsoft-v2-181215/x86_64-pc-linux-gnu-libc2.23 && \
-        export REFPATH=/home/shlocal/soft/hxmtsoft-v2-181215/BKG && \
-        . $HEADAS/headas-init.sh'
-alias hebkgmap='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/hebkgmap.py'
-alias mebkgmap='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/mebkgmap.py'
-alias lebkgmap='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/lebkgmap.py'
-alias megti='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/megti.py'
-alias legti='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/legti.py'
+#alias heainit='export HEADAS=/home/shlocal/soft/heasoft-6.24/x86_64-pc-linux-gnu-libc2.23 && . $HEADAS/headas-init.sh'
+#alias hxmtinit='\
+#        export CALDB=/home/shlocal/soft/hxmtsoft-v2-181215/CALDB && \
+#        export CALDBCONFIG=/home/shlocal/soft/hxmtsoft-v2-181215/CALDB/caldb.config && \
+#        export HEADAS=/home/shlocal/soft/hxmtsoft-v2-181215/x86_64-pc-linux-gnu-libc2.23 && \
+#        export REFPATH=/home/shlocal/soft/hxmtsoft-v2-181215/BKG && \
+#        . $HEADAS/headas-init.sh'
+#alias hebkgmap='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/hebkgmap.py'
+#alias mebkgmap='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/mebkgmap.py'
+#alias lebkgmap='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/lebkgmap.py'
+#alias megti='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/megti.py'
+#alias legti='python /home/shlocal/soft/hxmtsoft-v2-181215/BKG/BldSpec/legti.py'
 ###############################################################################
-alias swift0243='cd /home/shlocal/zhangyueDATA/SwiftJ0243/'
+#alias swift0243='cd /home/shlocal/zhangyueDATA/SwiftJ0243/'
 alias howbig='du -h --max-depth=1'
 alias dg='sudo apt-get update -y && sudo apt-get upgrade -y'
 ######################## For DATA moving
-export PYTHONPATH=$PYTHONPATH:'/home/shlocal/zhangyueDATA/CENTER/my_python_module_new'
+#export PYTHONPATH=$PYTHONPATH:'/home/shlocal/zhangyueDATA/CENTER/my_python_module_new'

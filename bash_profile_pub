@@ -1,27 +1,29 @@
 #public env
 #20190213
 ###############################################################################
-scptolocal()
-{
-        scp -r zhangyue@hlogin$1.ihep.ac.cn:$2 $3
-}
+#scptolocal()
+#{
+#        scp -r zhangyue@hlogin$1.ihep.ac.cn:$2 $3
+#}
 ########################
-scptoserver()
-{
-        scp -r $1 zhangyue@hlogin$2.ihep.ac.cn:$3
-}
+#scptoserver()
+#{
+#        scp -r $1 zhangyue@hlogin$2.ihep.ac.cn:$3
+#}
+##########################
+#zhangyueihep()
+#{
+#        ssh -X zhangyue@hlogin$@.ihep.ac.cn
+#}
 #########################
-zhangyueihep()
-{
-        ssh -X zhangyue@hlogin$@.ihep.ac.cn
-}
-########################
-sshlocal()
-{
-        ssh -X shlocal@192.168.183.74
-}
+#sshlocal()
+#{
+#        ssh -X shlocal@192.168.183.74
+#}
 ###############################################################################
-alias shuttlessh='sshuttle --dns -r zhangyue@hlogin03.ihep.ac.cn 0/0 -v'
+#alias shuttlessh='sshuttle --dns -r zhangyue@hlogin03.ihep.ac.cn 0/0 -v'
+#########
+alias ll = 'ls -lh'
 ######################## 重定义rm命令
 if [ ! -d $trash_path ]; then
         mkdir -p $trash_path
