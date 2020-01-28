@@ -53,10 +53,10 @@ let l=l+1 | call setline(l,'#!/usr/bin/env python3.7')
 "let l=l+1 | call setline(l,'#!coding=utf-8')
 let l=l+1 | call setline(l,'#')
 "let l=l+1 | call setline(l,'from __future__ import division')
-let l=l+1 | call setline(l,'import numpy as np')
-let l=l+1 | call setline(l,'import pandas as pd')
-let l=l+1 | call setline(l,'import matplotlib.pyplot as plt')
-let l=l+1 | call setline(l,'plt.style.use(["classic", "myself"])')
+"let l=l+1 | call setline(l,'import numpy as np')
+"let l=l+1 | call setline(l,'import pandas as pd')
+"let l=l+1 | call setline(l,'import matplotlib.pyplot as plt')
+"let l=l+1 | call setline(l,'plt.style.use(["classic", "myself"])')
 let l=l+1 | call setline(l,'print("-"*10,"import end","-"*10)')
 let l=l+1 | call setline(l,'########')
 
@@ -67,5 +67,5 @@ map <F3> <Esc>o########<Esc><home>
 map <F4> <Esc>o<home><Esc>Di   #^^^^^^^END<Esc>
 map <F5> <Esc>o########################<Esc><home>
 map <F6> <Esc>o<home><Esc>Di###############################################################################<Esc><home>
-map <F7> <Esc>oraw_input('xxx')<Esc>
+map <F7> <Esc>oinput('xxx')<Esc>
 map <F8> <Esc><End>a<Tab># zhangyue<Esc>j
