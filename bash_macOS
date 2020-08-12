@@ -12,7 +12,7 @@ source ~/git_base/bash_profile_pub
 #export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 ######################## alias
-alias python='python3.7'
+alias python='/usr/local/Cellar/python@3.8/3.8.5/libexec/bin/python'
 alias la='ls -a'
 #########################
 ######## 更新vim配置
@@ -23,6 +23,7 @@ ln -s ~/git_base/murphy2.vim ~/.vim/colors/murphy2.vim
 ln -s ~/git_base/pip.conf ~/.pip/pip.conf
 ######## 设置python库路径
 export PYTHONPATH=$PYTHONPATH:'/Users/shzy/git_base/pythonselflib'
+#export PYTHONPATH=$PYTHONPATH:'/usr/local/lib/python3.7/site-packages'
 
 ####################################################################### old
 ######################## for DATA moving
